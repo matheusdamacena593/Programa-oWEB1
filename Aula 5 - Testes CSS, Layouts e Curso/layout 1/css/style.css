@@ -1,0 +1,43 @@
+h1, p{
+  font-family: 'Arial';
+  color: #0000FF;
+}
+p{
+  font-size: 16pt;
+}
+div{
+  border: 2px solid black;
+}
+ul{
+  border: 2px solid blue;
+  list-style-type: square;
+  list-style-position: inside;
+}
+ul li{
+  border: 2px solid red;
+}
+h1.teste{
+  background-color: yellow;
+}
+div.teste{
+  background-color: lightblue;
+}
+.outro{
+  background-color: pink;
+}
+div.outro{
+  font-size: 20pt;
+}
+a{
+  text-decoration: none;
+}
+div.outro ul li a:link{
+  color: red;
+}
+div.outro ul li a:visited{
+  color: orange;
+}
+div.outro ul li a:hover{
+  background-color: gray;
+}
+

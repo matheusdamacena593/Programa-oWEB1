@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Login</title>
+  </head>
+  <body>
+    <form method="post">
+      <fildset>
+        <legend>Cadastro</legend><br/>
+        <label for="txtNome">Nome:</label>
+        <input type="text" name="txtNome" autofocus required/><br/><br/>
+        <label for="txtEmail">Email:</label>
+        <input type="email" name="txtEmail" placeholder="Digite seu Email" required/><br/><br/>
+        <label for="txtSenha">Senha:</label>
+        <input type="password" name="txtSenha" placeholder="Digite sua Senha" required/><br/><br/>
+        <label for="rbSexo">Sexo:</label><br/>
+        <input type="radio" name="rbSexo" value="F"/><label>Feminino</label><br/><br/>
+        <input type="radio" name="rbSexo" value="M"/><label>Masculino</label><br/><br/>
+        <input type="radio" name="rbSexo" value="O"/><label>Outros</label><br/><br/>
+        <label for="txtTelefone">Telefone:</label>
+        <input type="tel" name="txtTelefone" placeholder="Digite seu número" required/><br/><br/>
+        <label for="txtData">Data de Nascimento:</label>
+        <input type="date" name="txtData" required/><br/><br/>
+        <label for="txtNumero">Quantos Filhos:</label>
+        <input type="number" name="txtNumero" required/><br/><br/>
+        <label for="flDoc">Enviar documentos:</label>
+        <input type="file" name="flDoc" /><br/><br/>
+        <label for="txtVoce">Escreva sobre você:</label><br/>
+        <textarea name="txtVoce" rows="4" cols="50"></textarea><br/><br/>
+        <label for="txtDateTime">Data ultimo registro:</label>
+        <input type="datetime-local" name="txtDateTime"/><br/><br/>
+        <input type="submit" name="btnEnviar" value="Enviar"/>
+        <input type="reset" name="btnLimpar" value="Limpar"/>
+        <button type="button" name="btnClick" onclick="alert('Hello world!')">Clique aqui</button>
+      </fildset>
+    </form>
+  </body>
+</html>
